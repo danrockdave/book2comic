@@ -41,11 +41,18 @@ def story_slug(annotation):
 def build_prompt(frame, annotation, characters):
     """Compose the SDXL prompt. Order matters: CLIP keeps only ~77 tokens."""
     parts = [STYLE, frame["shot"]]
+    tags = []
     for char_id in frame.get("chars", []):
         char = characters.get(char_id, {})
         tag = char.get("tag") or char.get("look")
         if tag:
-            parts.append(tag)
+            tags.append(tag)
+    if len(tags) > 1:
+        # Explicit count and separation reduce SDXL mixing traits between people.
+        parts.append(f"{len(tags)} different-looking characters")
+        parts.append("; ".join(f"({tag})" for tag in tags))
+    else:
+        parts.extend(tags)
     place = annotation.get("places", {}).get(frame.get("place", ""))
     if place:
         parts.append(place)

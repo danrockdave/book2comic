@@ -115,7 +115,10 @@ def cmd_frames(args):
 
     for n, frame in enumerate(todo, 1):
         prompt = build_prompt(frame, annotation, characters)
-        ip_char = next((c for c in frame.get("chars", []) if c in ref_images), None)
+        # IP-Adapter applies the reference face to every face in the image, so it
+        # is only used when the frame shows a single character.
+        chars = frame.get("chars", [])
+        ip_char = chars[0] if len(chars) == 1 and chars[0] in ref_images else None
         seed = args.seed if args.seed is not None else random.randint(0, 2**31 - 1)
         print(f"[{n}/{len(todo)}] {frame['id']} seed={seed} ref={ip_char or '-'}")
         image = generate(pipe, prompt, FRAME_SIZE, seed, args.steps,
