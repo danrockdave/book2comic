@@ -1,0 +1,7 @@
+pymupdf
+edge-tts
+pillow
+diffusers
+transformers
+accelerate
+safetensors

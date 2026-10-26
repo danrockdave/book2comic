@@ -1,0 +1,105 @@
+{
+  "_info": "Fichas dos personagens. 'look' é a descrição completa (usada nos retratos de referência); 'tag' é a versão curta que entra no prompt de cada quadro (o SDXL só lê ~75 palavras-chave). 'voice' é a voz do edge-tts; 'rate' e 'pitch' ajustam velocidade e tom. Rode 'python build.py voices' para ouvir uma amostra de cada um.",
+  "narrador": {
+    "name": "Narrador",
+    "voice": "pt-BR-FranciscaNeural",
+    "rate": "+0%",
+    "pitch": "+0Hz"
+  },
+  "geralt": {
+    "name": "Geralt",
+    "look": "Geralt, lean muscular man in his thirties, long white hair tied back, pale angular scarred face, yellow cat-like eyes, black leather jacket with silver studded cuffs, long sword hilt over his shoulder",
+    "tag": "Geralt, white-haired witcher, yellow cat eyes, black leather jacket",
+    "voice": "pt-BR-AntonioNeural",
+    "rate": "-8%",
+    "pitch": "-14Hz"
+  },
+  "taberneiro": {
+    "name": "Taberneiro",
+    "look": "fat balding tavern keeper with a greasy apron",
+    "tag": "fat balding tavern keeper",
+    "voice": "pt-BR-AntonioNeural",
+    "rate": "+10%",
+    "pitch": "+12Hz"
+  },
+  "bexiguento": {
+    "name": "Bexiguento",
+    "look": "skinny pockmarked thug with a sneering face, shabby tunic",
+    "tag": "skinny pockmarked thug",
+    "voice": "pt-PT-DuarteNeural",
+    "rate": "+12%",
+    "pitch": "+6Hz"
+  },
+  "capanga": {
+    "name": "Capanga",
+    "look": "burly drunk thug",
+    "tag": "burly drunk thug",
+    "voice": "en-US-AndrewMultilingualNeural",
+    "rate": "+5%",
+    "pitch": "-4Hz"
+  },
+  "guarda": {
+    "name": "Guarda",
+    "look": "nervous town guards in chainmail and blue tabards holding leather-wrapped clubs",
+    "tag": "town guards in chainmail",
+    "voice": "pt-BR-AntonioNeural",
+    "rate": "+14%",
+    "pitch": "+20Hz"
+  },
+  "velerad": {
+    "name": "Velerad",
+    "look": "Velerad, stout middle-aged town governor, round face with short grey-brown beard, fur-trimmed brown doublet, heavy gold chain of office",
+    "tag": "Velerad, stout bearded governor in fur-trimmed doublet",
+    "voice": "pt-PT-DuarteNeural",
+    "rate": "+6%",
+    "pitch": "-4Hz"
+  },
+  "foltest": {
+    "name": "Foltest",
+    "look": "King Foltest, slender very handsome man under forty, short dark wavy hair, neat short beard, rich crimson and gold royal garments, thin gold crown",
+    "tag": "King Foltest, handsome dark-haired king, crimson robes, gold crown",
+    "voice": "en-US-BrianMultilingualNeural",
+    "rate": "-2%",
+    "pitch": "+0Hz"
+  },
+  "segelin": {
+    "name": "Segelin",
+    "look": "Segelin, older burly nobleman with a thick grey beard, dark green velvet robes",
+    "tag": "Segelin, old grey-bearded nobleman",
+    "voice": "en-US-AndrewMultilingualNeural",
+    "rate": "-6%",
+    "pitch": "-10Hz"
+  },
+  "ostrit": {
+    "name": "Ostrit",
+    "look": "Ostrit, proud nobleman around forty, sharp haughty features, black slicked hair, thin moustache, black and gold embroidered doublet, rapier at his belt",
+    "tag": "Ostrit, haughty black-haired noble in black and gold",
+    "voice": "de-DE-FlorianMultilingualNeural",
+    "rate": "+0%",
+    "pitch": "-2Hz"
+  },
+  "moleiro": {
+    "name": "Moleiro",
+    "look": "terrified peasant miller with scarred arms, flour-dusted clothes",
+    "tag": "scarred peasant miller",
+    "voice": "pt-BR-AntonioNeural",
+    "rate": "+0%",
+    "pitch": "+6Hz"
+  },
+  "estrige": {
+    "name": "Estrige",
+    "look": "the striga, hunched monstrous creature, squat barrel-shaped body, huge head with a mouth from ear to ear full of needle-sharp white fangs, glowing red eyes, wild tangled red hair, arms so long they reach the floor, lynx-like claws",
+    "tag": "the striga, hunched red-haired monster, glowing red eyes, huge fanged mouth, long clawed arms"
+  },
+  "princesa": {
+    "name": "Princesa",
+    "look": "thin pale fourteen-year-old girl with very long tangled copper hair, wrapped in a black cloak",
+    "tag": "thin pale girl with long copper hair, wrapped in a black cloak"
+  },
+  "desconhecido": {
+    "name": "Desconhecido",
+    "voice": "pt-BR-AntonioNeural",
+    "rate": "+0%",
+    "pitch": "+0Hz"
+  }
+}

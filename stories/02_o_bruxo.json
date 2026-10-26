@@ -1,0 +1,111 @@
+{
+  "story_index": 2,
+  "title": "O Bruxo",
+  "_info": "Roteiro do conto. 'speakers' diz quem fala em cada parágrafo de diálogo (ids do book.json). Cada quadro em 'frames' começa no parágrafo 'start' e vai até o início do próximo. 'chars' injeta a aparência dos personagens (characters.json) no prompt; 'place' injeta o cenário.",
+
+  "text_fixes": {
+    "p0328.0": [["Aprimeira", "A primeira"]]
+  },
+
+  "speakers": {
+    "taberneiro": "0005 0011 0013",
+    "geralt": "0006 0010 0012 0014 0022 0029 0033 0041 0047 0049 0051 0053 0055 0060 0063 0067 0075 0077 0079 0081 0083 0086 0095 0097 0102 0104 0107 0109 0111 0113 0116 0120 0122 0125 0127 0129 0133 0142 0146 0148 0150 0153 0156 0162 0164 0166 0170 0178 0180 0182 0185 0187 0189 0193 0196 0198 0200 0202 0204 0206 0210 0212 0214 0216 0218 0223 0225 0227 0229 0232 0234 0237 0258 0260 0262 0265 0270 0272 0275 0279 0283 0285 0287 0289 0291 0330 0332 0334",
+    "bexiguento": "0016 0018 0020 0023",
+    "capanga": "0019",
+    "guarda": "0026 0028 0030 0034",
+    "velerad": "0037 0039 0042 0044 0046 0048 0050 0052 0054 0057 0059 0062 0064 0066 0068 0070 0072 0074 0076 0078 0080 0082 0084 0087 0089 0091 0093 0096 0099 0101 0103 0106 0108 0110 0112 0115 0117 0136 0138 0155 0158 0168 0173 0329 0331 0333 0335 0337",
+    "foltest": "0119 0121 0123 0126 0128 0131 0135 0137 0139 0141 0143 0177 0179 0181 0183 0186 0188 0191 0195 0197 0199 0201 0203 0205 0207 0209 0213 0215 0217 0220 0222 0224 0226 0228 0231 0233 0236 0239 0241",
+    "segelin": "0145 0147 0149 0151 0154 0161 0163 0165 0172",
+    "ostrit": "0152 0159 0169 0252 0254 0256 0259 0261 0263 0267 0271 0274 0276 0278 0280 0282 0284 0286 0288 0290"
+  },
+
+  "places": {
+    "street": "narrow deserted medieval town street at dusk, closed wooden market stalls, warm summer evening",
+    "tavern": "dim shabby medieval tavern interior, wooden counter, barrels, oil lamps, smoky air",
+    "office": "town governor's study, heavy oak table, candles, parchment, stone walls",
+    "hall": "royal hall of a new castle, big fireplace, straw on the floor, tapestries",
+    "guardroom": "small room above a guardhouse at night, whitewashed walls, wooden beams, one candle",
+    "old_castle": "abandoned ruined castle hall at night, broken furniture, dust, moonlight through high windows, staircase with balustrade",
+    "crypt": "small stone crypt under the castle, three stone sarcophagi, darkness",
+    "flashback": "faded sepia flashback illustration"
+  },
+
+  "frames": [
+    {"id": "f001", "start": "p0001", "place": "street", "chars": [], "shot": "wide shot, a stranger in a heavy black hooded cloak leading his horse by the reins down the street"},
+    {"id": "f002", "start": "p0002", "place": "street", "chars": [], "shot": "a cloaked stranger with a horse standing outside a busy lively inn with warm light in the windows and a hanging sign"},
+    {"id": "f003", "start": "p0003", "place": "street", "chars": [], "shot": "a cloaked stranger leading his horse toward a small run-down tavern with a fox painted on its sign"},
+    {"id": "f004", "start": "p0004", "place": "tavern", "chars": ["taberneiro"], "shot": "the tavern keeper behind the counter beside a barrel of pickles, looking suspiciously at a tall stranger in a black cloak"},
+    {"id": "f005", "start": "p0008", "place": "tavern", "chars": ["geralt"], "shot": "medium shot, Geralt standing at the counter holding an old clay beer mug, cloak removed, long sword strapped across his back"},
+    {"id": "f006", "start": "p0015", "place": "tavern", "chars": ["geralt", "bexiguento"], "shot": "a pockmarked thug confronting Geralt at the counter, two other thugs standing behind him"},
+    {"id": "f007", "start": "p0023", "place": "tavern", "chars": ["geralt"], "shot": "dynamic action shot, Geralt spinning on his heels drawing his sword, blade flashing in lamplight, chair falling, clay jugs shattering"},
+    {"id": "f008", "start": "p0024", "place": "tavern", "chars": ["geralt"], "shot": "Geralt with his back against the wall holding the sword with both hands in a defensive stance, frightened patrons frozen in horror, overturned chairs"},
+    {"id": "f009", "start": "p0025", "place": "tavern", "chars": ["guarda", "geralt"], "shot": "three town guards bursting through the tavern door drawing swords, Geralt against the wall pulling a dagger from his boot"},
+    {"id": "f010", "start": "p0031", "place": "tavern", "chars": ["geralt", "guarda"], "shot": "Geralt tracing a quick magic sign in the air with his right hand, silver studs on his cuffs flashing brightly, guards recoiling and shielding their faces"},
+    {"id": "f011", "start": "p0034", "place": "street", "chars": ["guarda", "geralt"], "shot": "three timid guards walking ahead out of the tavern at night, Geralt following them calmly"},
+
+    {"id": "f012", "start": "p0036", "place": "office", "chars": ["velerad", "geralt"], "shot": "Velerad seated behind the table rubbing his chin, toying with a heavy mace, Geralt seated far from him"},
+    {"id": "f013", "start": "p0040", "place": "office", "chars": ["geralt"], "shot": "Geralt laying a white goatskin parchment with runes and a royal seal on the table"},
+    {"id": "f014", "start": "p0045", "place": "office", "chars": [], "shot": "close-up of a round silver medallion with a snarling wolf head hanging from a silver chain in a gloved hand"},
+    {"id": "f015", "start": "p0056", "place": "office", "chars": ["velerad", "geralt"], "shot": "Velerad clapping his hands, a servant bringing cold foamy beer in mugs to the table"},
+    {"id": "f016", "start": "p0059", "place": "office", "chars": ["velerad"], "shot": "Velerad leaning back with a beer mug, gesturing while telling a grim story, candlelight"},
+    {"id": "f017", "start": "p0066", "place": "flashback", "chars": [], "shot": "a young prince and a young princess walking side by side in a royal castle courtyard, courtiers whispering behind them"},
+    {"id": "f018", "start": "p0068", "place": "flashback", "chars": [], "shot": "a stone sarcophagus in a dark crypt beneath a castle at full moon, its lid slightly open, terrified guards running"},
+    {"id": "f019", "start": "p0070", "place": "flashback", "chars": [], "shot": "a crowd of quarrelling wizards in pointed starry hats waving staffs in a throne room"},
+    {"id": "f020", "start": "p0072", "place": "flashback", "chars": [], "shot": "an old hunchbacked hermit in a pointed hat descending into a dark crypt with a lantern"},
+    {"id": "f021", "start": "p0074", "place": "office", "chars": ["velerad", "geralt"], "shot": "Velerad and Geralt at the table with beer mugs, Velerad looking weary, Geralt listening silently"},
+    {"id": "f022", "start": "p0090", "place": "office", "chars": ["velerad"], "shot": "Velerad leaning over the table, whispering conspiratorially, candle between them"},
+    {"id": "f023", "start": "p0105", "place": "office", "chars": ["velerad"], "shot": "Velerad slamming his fist on the table, beer splashing, exasperated"},
+    {"id": "f024", "start": "p0111", "place": "office", "chars": ["geralt", "velerad"], "shot": "Geralt calmly bargaining with his hands on his knees, Velerad scratching his head"},
+
+    {"id": "f025", "start": "p0118", "place": "hall", "chars": ["foltest", "geralt"], "shot": "King Foltest seated in a carved armchair by the fireplace with two dogs, a bearded old man on a chest, Geralt bowing"},
+    {"id": "f026", "start": "p0131", "place": "hall", "chars": ["foltest", "geralt"], "shot": "tense close-up, Geralt raising his head and staring the king straight in the eyes"},
+    {"id": "f027", "start": "p0140", "place": "hall", "chars": ["foltest"], "shot": "King Foltest at the doorway turning back to speak, two dogs at his side, straw flying on the floor"},
+    {"id": "f028", "start": "p0144", "place": "hall", "chars": ["segelin", "ostrit", "geralt"], "shot": "three noblemen and Geralt sitting at a dinner table, the bearded Segelin gesturing to Geralt, Ostrit frowning in the king's chair"},
+    {"id": "f029", "start": "p0157", "place": "hall", "chars": ["velerad"], "shot": "Velerad jumping up from the table shouting and waving his arms wildly"},
+    {"id": "f030", "start": "p0158", "place": "flashback", "chars": ["estrige"], "shot": "terrifying imagined portrait of the striga in darkness"},
+    {"id": "f031", "start": "p0169", "place": "hall", "chars": ["ostrit", "velerad"], "shot": "Ostrit angrily rebuking Velerad across the dinner table"},
+
+    {"id": "f032", "start": "p0174", "place": "guardroom", "chars": ["moleiro", "geralt"], "shot": "Geralt examining the scarred arms of a terrified miller, a hooded guard by the door"},
+    {"id": "f033", "start": "p0176", "place": "guardroom", "chars": ["foltest"], "shot": "a hooded guard pulling back his hood revealing King Foltest"},
+    {"id": "f034", "start": "p0184", "place": "guardroom", "chars": ["geralt", "foltest"], "shot": "Geralt and King Foltest talking seriously by candlelight, Geralt rubbing his forehead"},
+    {"id": "f035", "start": "p0216", "place": "guardroom", "chars": [], "shot": "close-up of a sapphire with a tiny air bubble inside on a thin silver chain, juniper and hazel branches burning in a fireplace behind"},
+    {"id": "f036", "start": "p0230", "place": "guardroom", "chars": ["foltest"], "shot": "King Foltest standing before a sword hanging on the wall, looking at it"},
+    {"id": "f037", "start": "p0235", "place": "guardroom", "chars": ["foltest"], "shot": "King Foltest turning around with shining eyes, emotional"},
+    {"id": "f038", "start": "p0242", "place": "guardroom", "chars": ["geralt"], "shot": "extreme close-up of Geralt's piercing yellow eyes, silent"},
+
+    {"id": "f039", "start": "p0243", "place": "old_castle", "chars": ["geralt"], "shot": "Geralt silhouetted at a castle window at nightfall, beyond a lake the faint lights of a distant town and a tall new castle tower"},
+    {"id": "f040", "start": "p0245", "place": "old_castle", "chars": [], "shot": "close-up of a small metal-bound box with dark glass vials in hay, and a silver sword with runes on a dusty table"},
+    {"id": "f041", "start": "p0247", "place": "old_castle", "chars": ["geralt"], "shot": "Geralt sitting on the floor wrapped in a black cloak, eyes closed, drinking from a small vial, hand on the sword hilt"},
+    {"id": "f042", "start": "p0250", "place": "old_castle", "chars": ["ostrit", "geralt"], "shot": "castle courtyard overgrown with nettles at dusk, Ostrit recoiling in disgust from Geralt whose face is chalk-white with huge black pupils"},
+    {"id": "f043", "start": "p0254", "place": "old_castle", "chars": ["ostrit"], "shot": "Ostrit throwing a heavy purse of gold coins at Geralt's feet"},
+    {"id": "f044", "start": "p0263", "place": "old_castle", "chars": ["ostrit"], "shot": "Ostrit drawing his sword in fury, shouting"},
+    {"id": "f045", "start": "p0268", "place": "old_castle", "chars": ["geralt", "ostrit"], "shot": "Geralt dodging the sword and striking Ostrit on the forehead with his silver-studded cuff"},
+
+    {"id": "f046", "start": "p0269", "place": "old_castle", "chars": ["ostrit"], "shot": "Ostrit tied up with ropes on the floor of a pitch-dark hall, screaming in terror"},
+    {"id": "f047", "start": "p0278", "place": "old_castle", "chars": ["ostrit", "geralt"], "shot": "Ostrit lying bound in darkness confessing, Geralt a barely visible silhouette beside him"},
+    {"id": "f048", "start": "p0292", "place": "old_castle", "chars": ["estrige"], "shot": "a floor slab bursting open over the crypt entrance, the hunched striga sprinting through the dark hall"},
+    {"id": "f049", "start": "p0295", "place": "old_castle", "chars": ["geralt"], "shot": "Geralt standing alone in the center of the dark hall by the crypt entrance, pulling on fencing gloves, silver sword on his back"},
+    {"id": "f050", "start": "p0297", "place": "old_castle", "chars": ["estrige"], "shot": "the striga emerging from the darkness, eyes glowing like embers, jaws wide open"},
+    {"id": "f051", "start": "p0299", "place": "old_castle", "chars": ["geralt", "estrige"], "shot": "the striga leaping at Geralt with claws, Geralt pirouetting aside"},
+    {"id": "f052", "start": "p0302", "place": "old_castle", "chars": ["geralt", "estrige"], "shot": "Geralt circling slowly, unrolling a long silver chain with a weight, the striga drooling and baring fangs"},
+    {"id": "f053", "start": "p0303", "place": "old_castle", "chars": ["estrige"], "shot": "a silver chain coiling like a snake around the striga's shoulders and head, the monster crashing to the floor"},
+    {"id": "f054", "start": "p0304", "place": "old_castle", "chars": ["geralt", "estrige"], "shot": "Geralt raising his left hand casting a glowing magic sign, shockwave pushing the striga back, broken silver chain links flying"},
+    {"id": "f055", "start": "p0307", "place": "old_castle", "chars": ["estrige", "geralt"], "shot": "the striga crawling out of the crypt like a giant spider, Geralt vaulting over a balustrade"},
+    {"id": "f056", "start": "p0309", "place": "old_castle", "chars": ["geralt", "estrige"], "shot": "Geralt with drawn silver sword tracing glowing circles in the air, circling the snarling striga"},
+    {"id": "f057", "start": "p0311", "place": "old_castle", "chars": ["estrige"], "shot": "the striga cowering and fleeing in fear into the labyrinthine dark corridors"},
+    {"id": "f058", "start": "p0312", "place": "old_castle", "chars": ["geralt"], "shot": "Geralt trembling alone in the center of the empty hall, exhausted, sword lowered"},
+    {"id": "f059", "start": "p0314", "place": "crypt", "chars": ["geralt"], "shot": "Geralt drinking a vial and stepping into a half-open stone sarcophagus"},
+    {"id": "f060", "start": "p0315", "place": "crypt", "chars": ["geralt"], "shot": "view from inside a closed sarcophagus, Geralt lying with arms crossed, a glowing magic sign on the inner lid, a small hourglass with phosphorescent sand on his chest"},
+
+    {"id": "f061", "start": "p0316", "place": "crypt", "chars": ["geralt"], "shot": "close-up of an hourglass almost run out, Geralt's hand pushing aside the heavy stone lid"},
+    {"id": "f062", "start": "p0319", "place": "crypt", "chars": ["geralt"], "shot": "Geralt rising from the sarcophagus with sword ready, a small oil lamp casting strange shadows on the crypt walls"},
+    {"id": "f063", "start": "p0321", "place": "crypt", "chars": ["princesa"], "shot": "a girl lying unconscious on the crypt floor beside the tomb, lamp light"},
+    {"id": "f064", "start": "p0323", "place": "crypt", "chars": ["geralt", "princesa"], "shot": "the girl suddenly lunging and clawing at Geralt's neck, Geralt grabbing her wrists, struggle in lamplight"},
+    {"id": "f065", "start": "p0324", "place": "crypt", "chars": ["geralt"], "shot": "Geralt kneeling, pressing a cloth to his wounded neck, sword in hand"},
+    {"id": "f066", "start": "p0325", "place": "crypt", "chars": ["geralt"], "shot": "Geralt slumped at the foot of the crypt stairs tearing his shirt into bandages, grey dawn light pouring in from above"},
+    {"id": "f067", "start": "p0327", "place": "street", "chars": [], "shot": "a rooster crowing on a wooden fence at misty dawn across a calm lake"},
+
+    {"id": "f068", "start": "p0328", "place": "guardroom", "chars": ["geralt", "velerad"], "shot": "Geralt lying in bed with a bandaged neck in daylight, Velerad sitting beside him talking"},
+    {"id": "f069", "start": "p0336", "place": "guardroom", "chars": ["geralt"], "shot": "Geralt asleep in bed, his silver sword leaning against the wall nearby, soft morning light"}
+  ]
+}
